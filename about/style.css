@@ -1,0 +1,612 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+h1, button {
+    font-family: 'Fraunces 9pt', sans-serif;
+}
+p, a {
+    font-family: 'Barlow', sans-serif;
+}
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 48px;
+    width: 1280px;
+    height: 24px;
+}
+
+header nav {
+    width: 283px;
+    height: 15px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    height: 15px;
+}
+header a:hover {
+    color: #333D4B;
+}
+.toggle {
+    display: none;
+}
+
+
+
+main {
+    width: 1280px;
+    margin: auto;
+}
+
+
+
+#container-un {
+    height: 450px;
+    background-image: url(../assets/about/desktop/image-hero-whitecup.jpg);
+    border-radius: 10px;
+    padding: 137px 0 0 85px;
+    margin-bottom: 168px;
+}
+#container-un section {
+    width: 445px;
+    height: 176px;
+}
+#container-un section h1 {
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+#container-un section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+
+
+#container-deux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1110px;
+    height: 520px;
+    border-radius: 10px;
+    margin-bottom: 256px;
+}
+#container-deux div {
+    width: 445px;
+    height: 520px;
+    background-image: url(../assets/about/desktop/image-commitment.jpg);
+    border-radius: 10px;
+}
+#container-deux section {
+    width: 540px;
+    height: 340px;
+}
+#container-deux section h1 {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+#container-deux section p {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    color: #333D4B;
+}
+
+
+
+
+#container-trois {
+    position: relative;
+    margin-bottom: 168px;
+    height: 474px;
+    background: #2C343E;
+    border-radius: 10px;
+    padding: 88px 85px;
+}
+#container-trois section {
+    width: 550px;
+    height: 210px;
+}
+#container-trois section h1 {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+#container-trois section p {
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+#container-trois div {
+    position: absolute;
+    top: -88px;
+    right: 85px;
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    background-image: url(../assets/about/desktop/image-quality.jpg);
+}
+
+
+
+
+
+#container-quatres {
+    margin:  0 auto 168px;
+    width: 1045px;
+    height: 366px;
+}
+#container-quatres h1 {
+    margin-bottom: 72px;
+    font-style: normal;
+}
+#container-quatres div {
+    display: flex;
+    justify-content: space-between;
+    height: 262px;
+}
+#container-quatres div section {
+    width: 285px;
+}
+#container-quatres div section h1 {
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+#container-quatres div section img {
+    margin-bottom: 10%;
+}
+#container-quatres div section p {
+    color: #333D4B;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 120px;
+    margin: auto;
+    padding: 47px 85px;
+    background: #2C343E;
+}
+footer a:hover {
+    color: #FEFCF7;
+}
+footer img {
+    margin-right: 103px;
+}
+footer nav {
+    width: 283px;
+    height: 15px;
+    margin-right: 368px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    height: 15px;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+footer div img {
+    margin-right: 0;
+}
+footer div img:hover {
+    filter: invert(89%) sepia(10%) saturate(1423%) hue-rotate(317deg) brightness(103%) contrast(98%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1350px) {
+    header {
+        margin: 40px auto 53px;
+        width: 689px;
+        height: 26px;
+    }
+
+
+
+    main {
+        width: 689px;
+    }
+
+
+
+    #container-un {
+        height: 400px;
+        background-image: url(../assets/about/tablet/image-hero-whitecup.jpg);
+        background-size: cover;
+        padding: 118px 58px;
+        margin-bottom: 144px;
+    }
+    #container-un section {
+        width: 398px;
+        height: 164px;
+    }
+    #container-un section h1 {
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #container-un section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+
+    #container-deux {
+        margin: auto;
+        width: auto;
+        height: 470px;
+        margin-bottom: 304px;
+    }
+    #container-deux div {
+        width: 281px;
+        height: 470px;
+    }
+    #container-deux section {
+        width: 339px;
+        height: 453px;
+    }
+    #container-deux section h1 {
+        margin-bottom: 32px;
+        font-size: 30px;
+    }
+    #container-deux section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+
+
+    #container-trois {
+        margin-bottom: 144px;
+        height: 488px;
+        padding: 224px 0 0 0;
+    }
+    #container-trois section {
+        text-align: center;
+        margin: auto;
+        width: 550px;
+        height: 210px;
+    }
+    #container-trois section h1 {
+        margin-bottom: 24px;
+        font-size: 32px;
+    }
+    #container-trois section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #container-trois div {
+        top: -160px;
+        right: 58px;
+        width: 573px;
+        height: 320px;
+        background-image: url(../assets/about/tablet/image-quality.jpg);
+    }
+
+
+
+    #container-quatres {
+        margin:  0 auto 144px;
+        width: 688px;
+    }
+    #container-quatres div section {
+        width: 222px;
+    }
+    #container-quatres div section h1 {
+        margin-bottom: 21px;
+        font-size: 24px;
+    }
+    #container-quatres div section img {
+        margin-bottom: 10%;
+    }
+
+
+
+    footer {
+        flex-direction: column;
+        width: 688px;
+        height: 270px;
+        margin: auto;
+        padding: 54px 190px 0 215px;
+    }
+    footer img {
+        width: 236px;
+        height: 26px;
+        margin: 0 0 32px;
+    }
+    footer nav {
+        width: 283px;
+        height: 15px;
+        margin: 0 auto  65px;
+    }
+    
+    footer div {
+        align-self: center;
+    }
+    footer div img {
+        width: auto;
+        margin: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 730px) {
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    header {
+        position: relative;
+        width: 95%;
+        height: 18px;
+        margin: 32px auto 40px;
+    }
+    header img {
+        height: 18px;
+    }
+    .toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .close {
+        display: none;
+    }
+    header nav {
+        position: absolute;
+        background: white;
+        transform: scaleY(0);
+        transition: transform 1s ease-in-out;
+        transform-origin: 100% 0;
+        top: 50px;
+        width:100%;
+        height: 100vh;
+        z-index: 10;
+    }
+    header nav ul {
+        width: 100%;
+        margin: auto;
+        height: 205px;
+        padding-top: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+    header a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+
+    main {
+        width: 95%;
+    }
+
+
+
+    #container-un {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        background-image: url(../assets/about/mobile/image-hero-whitecup.jpg);
+        padding: 111px 24px 87px;
+        margin-bottom: 120px;
+    }
+    #container-un section {
+        text-align: center;
+        margin: auto;
+        width: auto;
+        height: auto; 
+    }
+    #container-un section h1 {
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    #container-un section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+
+
+    #container-deux {
+        flex-direction: column;
+        margin:  0 auto 198px;
+        width: 100%;
+        height: auto;
+    }
+    #container-deux div {
+        height: 327px;
+        width: 100%;
+        background-image: url(../assets/about/mobile/image-commitment.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 48px;
+    }
+    #container-deux section {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    #container-deux section h1 {
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+    #container-deux section p {
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        color: #333D4B;
+    }
+    
+    
+    
+    
+    #container-trois {
+        margin-bottom: 120px;
+        height: auto;
+        padding: 142px 0 61px 0;
+    }
+    #container-trois section {
+        width: 95%;
+        height: auto;
+    }
+    #container-trois section h1 {
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    #container-trois section p {
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    #container-trois div {
+        top: -78px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 279px;
+        height: 156px;
+        background-image: url(../assets/about/mobile/image-quality.jpg);
+        background-size: cover;
+    }
+    
+    
+
+    #container-quatres {
+        text-align: center;
+        margin:  0 auto 120px;
+        width: 100%;
+        height: 1044px;
+    }
+    #container-quatres h1 {
+        margin-bottom: 72px;
+        font-style: normal;
+    }
+    #container-quatres div {
+        flex-direction: column;
+        height: 940px;
+    }
+    #container-quatres div section {
+        width: auto;
+    }
+    #container-quatres div section h1 {
+        margin-bottom: 22px;
+        font-size: 28px;
+    }
+
+
+
+    footer {
+        width: 100%;
+        height: 346px;
+        margin: auto;
+        padding: 54px 0;
+    }
+    footer img {
+        width: 200px;
+        height: 26px;
+        margin: 0 auto 32px;
+    }
+    footer nav {
+        width: 140px;
+        height: 93px;
+    }
+    footer nav ul {
+        text-align: center;
+        flex-direction: column;
+        width: 140px;
+        height: 93px;
+        margin: 0 auto  65px;
+    }
+    footer div {
+        align-self: center;
+    }
+    footer div img {
+        width: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:330px) {
+  header a {
+    font-size: 20px;
+  }
+} 
+    
+
+.menu .open {
+    display: none;
+}
+.menu header nav {
+    transform: scaleY(1);
+}
+.menu .close {
+    display: block;
+}
